@@ -1,0 +1,10 @@
+Untuk bikin website yang responsive, Anda perlu memperhatikan beberapa hal agar tampilan website dapat beradaptasi dengan baik pada berbagai perangkat dan ukuran layar. 
+
+
+1. Siapkan file html dari website yang akan dibuat jd responsive dengan strukture html 5: 
+2. Pastikan temen2 nambahin tag meta serperti berikut:
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+dengan adanya meta tag viewport ini maka browser akan membaca dan memperlakukan dimensi layar user yg mengakses - initial-scale=1.0 ini merupakan zoom screen devices. klo user scalable user-scalable=yes but I wrote user-scalable=true maka bisa dizoom.
+3. Buat stylesheet css dengan media query untuk menentukan responsive style yg berlaku di beberapa devices. 480, 768, 810, 1024, 1366, 1268, 1920, 1400 dsb.
+4. 
+

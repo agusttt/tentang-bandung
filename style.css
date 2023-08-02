@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,600;0,800;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@400;500&display=swap');
+
+:root {
+	--black-100: #2c2a2a;
+	--black-50: #494b58;
+	--white-100: #ffffff;
+	--grey-50: #f8f8f8;
+	--font-jakarta-sans: 'Plus Jakarta Sans', sans-serif;
+	--font-hind-sans: 'Hind', sans-serif;
+}
+
+h1 {
+	font-size: 80px;
+	line-height: 89px;
+	margin-bottom: 15px;
+	font-family: var(--font-jakarta-sans);
+	font-weight: 800;
+	letter-spacing: 0.15px;
+}
+
+.container {
+	max-width: 1580px;
+}
+
+.mx-auto {
+	margin: 0 auto;
+}
+
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-row {
+	flex-direction: row;
+}
+
+.flex-column {
+	flex-direction: column;
+}
+
+.justify-between {
+	justify-content: space-between;
+	-ms-justify-content: space-between;
+	-moz-justify-content: space-between;
+}
+
+.justify-end {
+	justify-content: flex-end;
+	-ms-justify-content: flex-end;
+	-moz-justify-content: flex-end;
+}
+
+.item-center {
+	align-items: center;
+	-ms-align-items: center;
+	-moz-align-items: center;
+}
+
+.order-1 {
+	order: 1;
+}
+
+.order-2 {
+	order: 2;
+}
+
+.order-3 {
+	order: 3;
+}
+
+.order-4 {
+	order: 4;
+}
+
+.nav {
+	padding: 6px 0px;
+}
+
+.logo-brand {
+	width: 236px;
+}
+
+.nav-menu {
+	width: 100%;
+	padding-left: 0px;
+}
+
+.nav-menu li {
+	list-style: none
+}
+
+.nav-menu li a {
+	padding: 8px 12px;
+	font-family: var(--font-jakarta-sans);
+	font-weight: 400;
+	color: var(----black-50);
+	text-decoration: none
+}
+
+.img-responsive {
+	max-width: 100%
+}
+
+
+.hero-image {
+	min-height: 420px;
+}
+
+.w-full {
+	width: 100%;
+}
+
+.w-50 {
+	width: 50%;
+}
+
+.content-text-hero {
+	width: 100%;
+	font-family: var(--font-hind-sans);
+	font-size: 22px;
+	line-height: 32px;
+	font-weight: 400;
+	color: var(--black-50);
+	padding-right: 74px;
+}
+
+.content-text-hero h1 {
+	color: var(--black-100);
+}
+
+.content-infographic-hero {
+	width: 100%;
+}
+
+.card-infographic {
+	width: 258px;
+	min-height: 258px;
+	background: var(--grey-50);
+	border-radius: 44px;
+}
+
+@media only screen and (min-width: 1366px) and (max-width: 1366px) and (orientation: landscape) {
+	.container {
+		max-width: 1250px;
+	}
+
+	.w-full {
+		width: 100%;
+	}
+
+	.sm-w-50 {
+		width: 50%;
+	}
+
+}
+
+@media screen and (max-width : 480px) {
+	.container {
+		max-width: 100%;
+	}
+
+	.sm-w-full {
+		width: 100%;
+	}
+
+	.sm-order-1 {
+		order: 1;
+	}
+
+	.sm-order-2 {
+		order: 2;
+	}
+
+	.sm-order-3 {
+		order: 3;
+	}
+
+	.sm-order-4 {
+		order: 4;
+	}
+
+}
